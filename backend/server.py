@@ -100,14 +100,16 @@ class DataRoomCategory:
     OTHER = "other"
 
 DATA_ROOM_CATEGORIES = [
-    {"value": "summary", "label": "Summary", "description": "Pitch Deck, One Pager"},
-    {"value": "financials", "label": "Financials", "description": "P&L, Balance Sheet, Financial Model"},
-    {"value": "legal", "label": "Legal", "description": "Articles of Incorporation, Bylaws, Cap Table"},
-    {"value": "previous_funding", "label": "Previous Funding", "description": "Investor Rights, Co-sale Agreements"},
-    {"value": "intellectual_property", "label": "Intellectual Property", "description": "Patents, Trademarks, Brand Book"},
-    {"value": "staff", "label": "Staff", "description": "Org Chart, Employee List, Contracts"},
-    {"value": "metrics", "label": "Metrics", "description": "Sales Pipeline, SaaS Metrics, Usage"},
-    {"value": "other", "label": "Other", "description": "Technical Documentation, API Docs"}
+    {"value": "pitch_deck", "label": "Pitch Deck & Summary", "description": "Pitch Deck, Executive Summary, One Pager"},
+    {"value": "financial_statements", "label": "Financial Statements", "description": "P&L Statement, Balance Sheet, Cash Flow"},
+    {"value": "financial_model", "label": "Financial Model & Projections", "description": "Revenue Model, Budget, Runway Analysis"},
+    {"value": "cap_table", "label": "Cap Table & Equity", "description": "Capitalization Table, Stock Agreements, Vesting"},
+    {"value": "legal_corporate", "label": "Legal & Corporate Docs", "description": "Articles of Incorporation, Bylaws, Board Consents"},
+    {"value": "funding_history", "label": "Funding History", "description": "Previous Round Docs, Investor Rights, SAFE/Convertibles"},
+    {"value": "intellectual_property", "label": "Intellectual Property", "description": "Patents, Trademarks, Trade Secrets, Brand Assets"},
+    {"value": "team_hr", "label": "Team & HR", "description": "Org Chart, Employee List, Key Contracts, Advisors"},
+    {"value": "metrics_kpis", "label": "Metrics & KPIs", "description": "Sales Pipeline, MRR/ARR, User Growth, Churn"},
+    {"value": "product_tech", "label": "Product & Technology", "description": "Product Roadmap, Architecture, API Docs, Security"}
 ]
 
 class DataRoomDocumentResponse(BaseModel):
