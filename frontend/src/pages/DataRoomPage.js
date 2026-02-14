@@ -42,14 +42,16 @@ import {
 } from 'recharts';
 
 const CATEGORY_ICONS = {
-  summary: FileText,
-  financials: BarChart3,
-  legal: FileText,
-  previous_funding: TrendingUp,
+  pitch_deck: FileText,
+  financial_statements: BarChart3,
+  financial_model: TrendingUp,
+  cap_table: PieChart,
+  legal_corporate: FileText,
+  funding_history: TrendingUp,
   intellectual_property: FileText,
-  staff: FileText,
-  metrics: PieChart,
-  other: FolderOpen
+  team_hr: FileText,
+  metrics_kpis: BarChart3,
+  product_tech: FolderOpen
 };
 
 const DataRoomPage = () => {
