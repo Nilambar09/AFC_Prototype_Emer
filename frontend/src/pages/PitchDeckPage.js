@@ -20,7 +20,8 @@ import {
   Target,
   TrendingUp,
   Trash2,
-  RefreshCw
+  RefreshCw,
+  BarChart3
 } from 'lucide-react';
 import { toast } from 'sonner';
 import { useDropzone } from 'react-dropzone';
