@@ -1,0 +1,172 @@
+{
+  "summary": {
+    "total_tests": 23,
+    "passed_tests": 20,
+    "failed_tests": 3,
+    "success_rate": 86.95652173913044,
+    "timestamp": "2026-02-14T18:39:56.255497"
+  },
+  "detailed_results": [
+    {
+      "test": "Health Check",
+      "success": true,
+      "details": "Status: 200",
+      "error": "",
+      "timestamp": "2026-02-14T18:39:07.724545"
+    },
+    {
+      "test": "User Registration",
+      "success": true,
+      "details": "Status: 200",
+      "error": "",
+      "timestamp": "2026-02-14T18:39:08.078852"
+    },
+    {
+      "test": "Token Extraction",
+      "success": true,
+      "details": "Successfully extracted auth token",
+      "error": "",
+      "timestamp": "2026-02-14T18:39:08.079423"
+    },
+    {
+      "test": "User Login",
+      "success": true,
+      "details": "Status: 200",
+      "error": "",
+      "timestamp": "2026-02-14T18:39:08.452149"
+    },
+    {
+      "test": "Get User Profile",
+      "success": true,
+      "details": "Status: 200",
+      "error": "",
+      "timestamp": "2026-02-14T18:39:08.566695"
+    },
+    {
+      "test": "Profile Data Validation",
+      "success": true,
+      "details": "User profile data matches",
+      "error": "",
+      "timestamp": "2026-02-14T18:39:08.567295"
+    },
+    {
+      "test": "Get Data Room Categories",
+      "success": true,
+      "details": "Status: 200",
+      "error": "",
+      "timestamp": "2026-02-14T18:39:08.741904"
+    },
+    {
+      "test": "Categories Validation",
+      "success": true,
+      "details": "Found all 8 expected categories",
+      "error": "",
+      "timestamp": "2026-02-14T18:39:08.742519"
+    },
+    {
+      "test": "Pitch Deck Upload",
+      "success": false,
+      "details": "",
+      "error": "Request failed: HTTPSConnectionPool(host='startup-doc-ai.preview.emergentagent.com', port=443): Read timed out. (read timeout=30)",
+      "timestamp": "2026-02-14T18:39:38.818813"
+    },
+    {
+      "test": "Pitch Deck Analysis",
+      "success": false,
+      "details": "",
+      "error": "No pitch deck ID available",
+      "timestamp": "2026-02-14T18:39:38.819230"
+    },
+    {
+      "test": "Get Pitch Decks",
+      "success": true,
+      "details": "Status: 200",
+      "error": "",
+      "timestamp": "2026-02-14T18:39:48.100615"
+    },
+    {
+      "test": "Pitch Decks List",
+      "success": true,
+      "details": "Found 0 pitch decks",
+      "error": "",
+      "timestamp": "2026-02-14T18:39:48.101232"
+    },
+    {
+      "test": "Data Room Upload",
+      "success": true,
+      "details": "Status: 200",
+      "error": "",
+      "timestamp": "2026-02-14T18:39:48.281664"
+    },
+    {
+      "test": "Data Room Doc ID Extraction",
+      "success": true,
+      "details": "Doc ID: 1129d862-e763-4ab5-8fda-df3aea3dfc9e",
+      "error": "",
+      "timestamp": "2026-02-14T18:39:48.282365"
+    },
+    {
+      "test": "Data Room Analysis",
+      "success": true,
+      "details": "Status: 200",
+      "error": "",
+      "timestamp": "2026-02-14T18:39:55.689179"
+    },
+    {
+      "test": "Data Room Analysis Status",
+      "success": false,
+      "details": "",
+      "error": "Unexpected status: error",
+      "timestamp": "2026-02-14T18:39:55.690033"
+    },
+    {
+      "test": "Get Data Room Documents",
+      "success": true,
+      "details": "Status: 200",
+      "error": "",
+      "timestamp": "2026-02-14T18:39:55.867816"
+    },
+    {
+      "test": "Data Room Documents List",
+      "success": true,
+      "details": "Found 1 documents",
+      "error": "",
+      "timestamp": "2026-02-14T18:39:55.868465"
+    },
+    {
+      "test": "Dashboard Stats",
+      "success": true,
+      "details": "Status: 200",
+      "error": "",
+      "timestamp": "2026-02-14T18:39:56.008572"
+    },
+    {
+      "test": "Dashboard Stats Structure",
+      "success": true,
+      "details": "All required stats fields present",
+      "error": "",
+      "timestamp": "2026-02-14T18:39:56.009184"
+    },
+    {
+      "test": "Get History",
+      "success": true,
+      "details": "Status: 200",
+      "error": "",
+      "timestamp": "2026-02-14T18:39:56.154641"
+    },
+    {
+      "test": "History List",
+      "success": true,
+      "details": "Found 2 history items",
+      "error": "",
+      "timestamp": "2026-02-14T18:39:56.155258"
+    },
+    {
+      "test": "Delete Data Room Document",
+      "success": true,
+      "details": "Status: 200",
+      "error": "",
+      "timestamp": "2026-02-14T18:39:56.254565"
+    }
+  ]
+}
