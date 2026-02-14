@@ -1,0 +1,159 @@
+{
+  "identity": {
+    "name": "Ventur",
+    "persona": "E1 - The Industrial Futurist",
+    "description": "A high-contrast, precision-engineered design system for startup founders. It blends the raw energy of 'Electric Orange' with the serious, data-heavy reliability of 'Obsidian Black'. It avoids generic SaaS tropes by using condensed typography and sharp, architectural grids.",
+    "principles": [
+      "Fusion: Industrial Brutalism x Fintech Precision",
+      "Emotion: Urgency (Orange) grounded in Stability (Black)",
+      "Content: Data is the art. Charts and metrics take center stage.",
+      "Contrast: Extreme. 100% Black vs 100% White vs Electric Orange."
+    ]
+  },
+  "typography": {
+    "fonts": {
+      "heading": "Oswald",
+      "body": "Manrope",
+      "mono": "JetBrains Mono"
+    },
+    "imports": [
+      "https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Manrope:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+    ],
+    "usage": {
+      "h1": "font-heading font-bold text-5xl md:text-7xl tracking-tight uppercase leading-none",
+      "h2": "font-heading font-semibold text-3xl md:text-5xl tracking-tight uppercase",
+      "h3": "font-heading font-medium text-2xl md:text-3xl tracking-normal",
+      "body": "font-body text-base md:text-lg leading-relaxed text-muted-foreground",
+      "caption": "font-mono text-xs tracking-wider uppercase text-muted-foreground/70"
+    }
+  },
+  "colors": {
+    "palette": {
+      "primary": "#FF4F00",
+      "primary_foreground": "#FFFFFF",
+      "background": "#050505",
+      "foreground": "#EDEDED",
+      "card": "#0A0A0A",
+      "card_foreground": "#EDEDED",
+      "popover": "#0A0A0A",
+      "popover_foreground": "#EDEDED",
+      "secondary": "#1A1A1A",
+      "secondary_foreground": "#EDEDED",
+      "muted": "#262626",
+      "muted_foreground": "#A1A1AA",
+      "accent": "#FF4F00",
+      "accent_foreground": "#FFFFFF",
+      "destructive": "#7F1D1D",
+      "destructive_foreground": "#FFFFFF",
+      "border": "#262626",
+      "input": "#262626",
+      "ring": "#FF4F00"
+    },
+    "css_vars": {
+      "root": {
+        "--background": "0 0% 100%",
+        "--foreground": "0 0% 3.9%",
+        "--card": "0 0% 100%",
+        "--card-foreground": "0 0% 3.9%",
+        "--popover": "0 0% 100%",
+        "--popover-foreground": "0 0% 3.9%",
+        "--primary": "19 100% 50%",
+        "--primary-foreground": "0 0% 98%",
+        "--secondary": "0 0% 96.1%",
+        "--secondary-foreground": "0 0% 9%",
+        "--muted": "0 0% 96.1%",
+        "--muted-foreground": "0 0% 45.1%",
+        "--accent": "19 100% 50%",
+        "--accent-foreground": "0 0% 9%",
+        "--destructive": "0 84.2% 60.2%",
+        "--destructive-foreground": "0 0% 98%",
+        "--border": "0 0% 89.8%",
+        "--input": "0 0% 89.8%",
+        "--ring": "19 100% 50%",
+        "--radius": "0rem"
+      },
+      "dark": {
+        "--background": "0 0% 2%",
+        "--foreground": "0 0% 93%",
+        "--card": "0 0% 4%",
+        "--card-foreground": "0 0% 93%",
+        "--popover": "0 0% 4%",
+        "--popover-foreground": "0 0% 93%",
+        "--primary": "19 100% 50%",
+        "--primary-foreground": "0 0% 98%",
+        "--secondary": "0 0% 10%",
+        "--secondary-foreground": "0 0% 98%",
+        "--muted": "0 0% 15%",
+        "--muted-foreground": "0 0% 63.9%",
+        "--accent": "19 100% 50%",
+        "--accent-foreground": "0 0% 98%",
+        "--destructive": "0 62.8% 30.6%",
+        "--destructive-foreground": "0 0% 98%",
+        "--border": "0 0% 15%",
+        "--input": "0 0% 15%",
+        "--ring": "19 100% 50%"
+      }
+    }
+  },
+  "components": {
+    "buttons": {
+      "default": "rounded-none font-heading uppercase tracking-wider font-bold transition-all duration-200 hover:translate-y-[-2px] active:translate-y-[0px]",
+      "primary": "bg-primary text-primary-foreground hover:bg-primary/90 shadow-[0_0_20px_-5px_rgba(255,79,0,0.5)]",
+      "secondary": "bg-secondary text-secondary-foreground hover:bg-secondary/80 border border-border",
+      "ghost": "hover:bg-accent/10 hover:text-accent"
+    },
+    "cards": {
+      "base": "rounded-none border border-border bg-card/50 backdrop-blur-sm hover:border-primary/50 transition-colors duration-300",
+      "glass": "rounded-none border border-white/10 bg-black/40 backdrop-blur-xl shadow-2xl"
+    },
+    "inputs": {
+      "base": "rounded-none border-border bg-background/50 focus:border-primary focus:ring-1 focus:ring-primary transition-all font-mono text-sm"
+    }
+  },
+  "layout": {
+    "spacing": {
+      "container_padding": "p-6 md:p-12 lg:p-24",
+      "section_gap": "gap-12 md:gap-24",
+      "element_gap": "gap-4 md:gap-8"
+    },
+    "grids": {
+      "dashboard": "grid grid-cols-1 md:grid-cols-12 gap-6",
+      "landing": "grid grid-cols-1 md:grid-cols-12 gap-0 md:gap-8"
+    }
+  },
+  "images": {
+    "hero_bg": {
+      "url": "https://images.unsplash.com/photo-1675642728964-4937be75857b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2ODh8MHwxfHNlYXJjaHw0fHxhYnN0cmFjdCUyMGdlb21ldHJpYyUyMG9yYW5nZSUyMGJsYWNrJTIwYmFja2dyb3VuZCUyMG1pbmltYWxpc3R8ZW58MHx8fHwxNzcxMDkzNDQ4fDA&ixlib=rb-4.1.0&q=85",
+      "alt": "Abstract orange and black geometric curves",
+      "usage": "Hero section background with overlay or card accents"
+    },
+    "pitch_deck_context": {
+      "url": "https://images.unsplash.com/photo-1765438864227-288900d09d26?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTJ8MHwxfHNlYXJjaHw0fHxzdGFydHVwJTIwZm91bmRlciUyMHByZXNlbnRpbmclMjBwaXRjaCUyMGRlY2slMjBmdXR1cmlzdGljJTIwb2ZmaWNlfGVufDB8fHx8MTc3MTA5MzQyNHww&ixlib=rb-4.1.0&q=85",
+      "alt": "Founder presenting at whiteboard",
+      "usage": "Pitch Deck Analyzer landing section"
+    },
+    "team_context": {
+      "url": "https://images.unsplash.com/photo-1758873268663-5a362616b5a7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHwyfHxkaXZlcnNlJTIwc3RhcnR1cCUyMHRlYW0lMjB3b3JraW5nJTIwdG9nZXRoZXIlMjBtb2Rlcm4lMjBvZmZpY2V8ZW58MHx8fHwxNzcxMDkzNDMxfDA&ixlib=rb-4.1.0&q=85",
+      "alt": "Diverse startup team in modern office",
+      "usage": "About page or Team section"
+    },
+    "investor_context": {
+      "url": "https://images.unsplash.com/photo-1573166364839-1bfe9196c23e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzl8MHwxfHNlYXJjaHwxfHxpbnZlc3RvciUyMG1lZXRpbmclMjBib2FyZHJvb20lMjBzZXJpb3VzJTIwZGlzY3Vzc2lvbnxlbnwwfHx8fDE3NzEwOTM0MzV8MA&ixlib=rb-4.1.0&q=85",
+      "alt": "Serious investor meeting",
+      "usage": "Data Room or Funding section"
+    }
+  },
+  "universal_guidelines": [
+    "Use 'Oswald' for all headings. If it feels too aggressive, reduce weight, not font family.",
+    "Use 'Manrope' for all body text. It must be legible at small sizes.",
+    "Primary Color #FF4F00 is for ACTION only. Do not use it for backgrounds unless it's a small badge or accent.",
+    "Dark Mode is the default experience. Light mode is secondary.",
+    "Borders are critical. Use 1px borders with 10-15% opacity to define structure in dark mode.",
+    "No rounded corners on main containers. Keep it sharp (rounded-none or rounded-sm).",
+    "Use 'sonner' for toasts.",
+    "All interactive elements must have data-testid attributes.",
+    "Do not use generic gradients. Use solid colors or subtle noise textures.",
+    "Spacing: Use p-8 or p-12 for section padding. Don't cram content."
+  ],
+  "instructions_to_main_agent": "You are building 'Ventur'. Follow the 'Industrial Futurist' aesthetic. Implement the CSS variables in index.css immediately. Use the provided image URLs for the respective sections. Ensure the dashboard uses a Bento Grid layout. For the Pitch Deck Analyzer, use a split-screen layout (Upload on left, Analysis on right). For the Data Room, use a dense table layout with quick filters."
+}
