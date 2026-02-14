@@ -22,7 +22,7 @@ class VenturAPITester:
         self.test_results = []
         
         # Test data
-        self.test_email = f"test_user_{datetime.now().strftime('%H%M%S')}@ventur.test"
+        self.test_email = f"test_user_{datetime.now().strftime('%H%M%S')}@example.com"
         self.test_password = "TestPass123!"
         self.test_name = "Test User"
         self.test_company = "Test Startup Inc"
